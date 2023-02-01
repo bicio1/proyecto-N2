@@ -1,0 +1,327 @@
+.bg-nav-foot{
+    background-color: rgba(89, 2, 2, 1);
+    box-sizing: border-box;
+}
+
+#botonera{
+    background-color: rgba(89, 2, 2, 1);
+}
+
+#botonera img{
+    width: 150px;
+}
+
+#botonera ul li a{
+    color: #D9BEB4;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+#botonera ul li a:hover{
+    color: #0D0D0D;
+}
+
+.box-sizing{
+    box-sizing: border-box;
+}
+
+.justify-content{
+    justify-content: space-evenly;
+}
+
+.centrado{
+    align-items: center;
+}
+/* termina bs */
+
+
+
+
+/* reset */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font size */
+
+html{
+    font-size: 62.5%;
+}
+/*  selectores de etiqueta */
+h1{
+    color: #BF4158;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+h2{
+    color: #590303;
+    font-weight: 400;
+}
+
+h3{
+    color: #BF4158;
+    font-weight: 400;
+}
+
+p{
+    color: #0D0D0D;
+    font-weight: 100;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+nav{
+    background-color: rgba(89, 2, 2, 1);
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+nav ul li a{
+    color: #D9BEB4;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.background-titulo{
+    background-color: rgba(216, 189, 179, 0.5);
+}
+body{
+    background-image: url(../img/Backgrounds/moroccan-flower.png);
+}
+
+.bg-btn{
+    background-color: #D9BEB4;
+}
+/* hover */
+
+form{
+    width: 100%;
+    margin: auto;
+}
+
+    form label{
+    font-size: 1.6rem;
+    display: block;
+    }
+
+footer{
+    background-color: rgba(89, 2, 2, 1);
+    font-size: 1.2rem;
+    height: auto;
+    padding: 2px 2px;
+    box-sizing: border-box;
+
+}
+
+/* orden de elementos */
+
+.order1{
+    order: 1;
+}
+
+.order2{
+    order: 2;
+}
+
+.order3{
+    order: 3;
+}
+
+.order4{
+    order: 4;
+}
+
+.order5{
+    order: 5;
+}
+
+.order6{
+    order: 6;
+}
+
+.order7{
+    order: 7;
+}
+
+.order8{
+    order: 8;
+}
+
+.order9{
+    order: 9;
+}
+
+/* selector de clases */
+/* clases BEM */
+
+.text-pink{
+    color: #BF4158;
+}
+
+.text-bold{
+    font-weight: 600;
+}
+
+/* ubicacion de texto */
+
+.text-justify{
+    text-align: justify;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+/* texto size */
+
+.texto-producto{
+    width: 16px;
+    height: auto;
+}
+
+/* box model - width - height - padding - margin - border*/
+/* overflow */
+
+.display{
+    display: flex;
+}
+.box-search{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.grupo-izquierdo{
+    width: 20%;
+    height: auto;
+    margin: 40px 80px;
+    padding: 10px auto;
+}
+
+.grupo-central{
+    width: 20%;
+    height: auto;
+    margin: 40px auto;
+    padding: 10px auto;
+    display: grid;
+}
+
+.grupo-derecha{
+    width: 20%;
+    height: auto;
+    margin: 40px 680px;
+    padding: 10px auto;
+}
+
+.logo{
+    width: auto;
+    height: 80px;
+    margin-top: 10px;
+    margin-right: 80px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+}
+
+.foto-producto{
+    width: 90%;
+    height: auto;
+    margin: 30px 30px;
+}
+
+.icon-size{
+    display: inline-block;
+    width: auto;
+    height: 25px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+.encabezado_img--fluid{
+    width: 100%;
+}
+
+/* flexbox */
+
+.container{
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
+
+
+}
+
+.galeria{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linea{
+    justify-content: space-between;
+}
+
+.flex-wrap{
+    flex-wrap: nowrap;
+}
+
+.iconos-redes-xl{
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+    margin-right: 3px;
+    margin-bottom: 0px;
+    margin-left: 3px;
+}
+/* Color Theme Swatches in Hex */
+.Moda-1-hex { color: #BF4158; }
+.Moda-2-hex { color: #D9BEB4; }
+.Moda-3-hex { color: #260101; }
+.Moda-4-hex { color: #590303; }
+.Moda-5-hex { color: #0D0D0D; }
+
+/* Color Theme Swatches in RGBA */
+.Moda-1-rgba { color: rgba(191, 65, 88, 1); }
+.Moda-2-rgba { color: rgba(216, 189, 179, 1); }
+.Moda-3-rgba { color: rgba(38, 0, 0, 1); }
+.Moda-4-rgba { color: rgba(89, 2, 2, 1); }
+.Moda-5-rgba { color: rgba(12, 12, 12, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Moda-1-hsla { color: hsla(348, 49, 50, 1); }
+.Moda-2-hsla { color: hsla(16, 32, 77, 1); }
+.Moda-3-hsla { color: hsla(0, 96, 7, 1); }
+.Moda-4-hsla { color: hsla(0, 94, 18, 1); }
+.Moda-5-hsla { color: hsla(0, 0, 5, 1); }
