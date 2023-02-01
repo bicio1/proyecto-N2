@@ -32,6 +32,11 @@
 .centrado{
     align-items: center;
 }
+
+.bg-btn{
+    background-color: #D9BEB4;
+}
+
 /* termina bs */
 
 
@@ -108,9 +113,7 @@ body{
     background-image: url(../img/Backgrounds/moroccan-flower.png);
 }
 
-.bg-btn{
-    background-color: #D9BEB4;
-}
+
 /* hover */
 
 form{
