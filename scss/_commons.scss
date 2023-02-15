@@ -1,0 +1,73 @@
+//font size
+
+html{
+    font-size: 62.5%;
+    font-family: $mainFont;
+}
+
+h1{
+    color: $keyColor;
+    font-weight: $textRegular;
+    font-size: $textXll;
+}
+
+h2{
+    color: $keyColor2;
+    font-weight: $textRegular;
+}
+
+h3{
+    color: $keyColor;
+    font-weight: $textRegular;
+}
+
+p{
+    color: $keyColor3;
+    font-weight: 100;
+    font-size: $textMd;
+    line-height: $textXl;
+}
+
+//body
+
+.background-titulo{
+    background-color: $secondary;
+}
+body{
+    background-image: url(../img/Backgrounds/moroccan-flower.png);
+}
+
+//hover
+
+form{
+    width: $w-100;
+    margin: auto;
+}
+
+    form label{
+    font-size: $textMd;
+    display: block;
+    }
+
+footer{
+    background-color:$mainColor;
+    font-size:$textMd;
+    flex-direction: row;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.icon-size{
+    display: inline-block;
+    width: auto;
+    height: 25px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+.bg-btn{
+    background-color: $keyColor4;
+}
