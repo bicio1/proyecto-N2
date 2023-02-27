@@ -23,9 +23,22 @@ h3{
 
 p{
     color: $keyColor3;
-    font-weight: 100;
+    font-weight: 600;
     font-size: $textMd;
     line-height: $textXl;
+}
+
+li{
+    color: $keyColor3;
+    font-weight: 300;
+    font-size: $textMd;
+    line-height: $textSm;
+}
+
+a{
+    font-weight: 100;
+    font-size: $textMd;
+    line-height: $textSm;
 }
 
 //body
@@ -35,6 +48,11 @@ p{
 }
 body{
     background-image: url(../img/Backgrounds/moroccan-flower.png);
+}
+
+.bg-compra{
+    background-color: $third;
+
 }
 
 //hover
@@ -63,11 +81,17 @@ footer{
     width: auto;
     height: 25px;
     margin-top: 5px;
-    margin-right: 5px;
-    margin-bottom: 0px;
-    margin-left: 5px;
+    margin-right: 6px;
+    margin-bottom: 5px;
+    margin-left: 6px;
 }
 
 .bg-btn{
     background-color: $keyColor4;
+}
+
+.footer-size{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
 }

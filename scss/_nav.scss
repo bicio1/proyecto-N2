@@ -9,22 +9,27 @@
     img{
         width: 150px;
     }
+
     ul{
         list-style: none;
         display: flex;
+    }
         li{
+            font-size: $textMd;
+            line-height: $textMd;
+            font-weight: 300;
+            padding-bottom: 5px;
             margin-left: 10px;
             margin-right: 10px;
             margin-top: 10px;
             margin-bottom: 2px;
+        }
             a{
-                font-size: $textXl;
+                font-size: $textMd;
                 color: $keyColor4;
                 text-decoration: none;
-                &.hover{
+                &:hover{
                     color: #0D0D0D;
                 }
             }
-        }
-    }
 }
