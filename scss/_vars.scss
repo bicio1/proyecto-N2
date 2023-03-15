@@ -1,31 +1,15 @@
 //variables colores
 $mainColor:rgba(89, 2, 2, 1);
 $secondary:rgba(216, 189, 179, 0.5);
-$third:hsla(0, 94, 18, 1);
 $keyColor:#BF4158;
 $keyColor2:#590303;
 $keyColor3:#0D0D0D;
 $keyColor4:#D9BEB4;
-$keyColor5:hsla(16, 32, 77, 1);
-
-//fontweight
-$textRegular:400;
-$textBold:600;
-$textLigh:300;
-
-//sizes
-$textSm:1em;
-$textMd:1.6em;
-$textXl:2em;
-$textXll:3em;
 
 //width
 $w-30:30%;
 $w-60:60%;
 $w-100:100%;
-
-//fonts
-$mainFont:'Roboto', sans-serif;
 
 //colores
 
@@ -42,11 +26,3 @@ $mainFont:'Roboto', sans-serif;
 .Moda-3-rgba { color: rgba(38, 0, 0, 1); }
 .Moda-4-rgba { color: rgba(89, 2, 2, 1); }
 .Moda-5-rgba { color: rgba(12, 12, 12, 1); }
-
-/* Color Theme Swatches in HSLA */
-.Moda-1-hsla { color: hsla(348, 49, 50, 1); }
-.Moda-2-hsla { color: hsla(16, 32, 77, 1); }
-.Moda-3-hsla { color: hsla(0, 96, 7, 1); }
-.Moda-4-hsla { color: hsla(0, 94, 18, 1); }
-.Moda-5-hsla { color: hsla(0, 0, 5, 1); }
-

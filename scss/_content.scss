@@ -43,15 +43,12 @@ a{
 
 //body
 
-.background-titulo{
-    background-color: $secondary;
-}
 body{
     background-image: url(../img/Backgrounds/moroccan-flower.png);
 }
 
 .bg-compra{
-    background-color: $third;
+    background-color: $mainColor;
 
 }
 
@@ -86,9 +83,6 @@ footer{
     margin-left: 6px;
 }
 
-.bg-btn{
-    background-color: $keyColor4;
-}
 
 .footer-size{
     justify-content: space-evenly;

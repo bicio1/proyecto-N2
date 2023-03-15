@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
 /* Color Theme Swatches in Hex */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
 .Moda-1-hex {
   color: #BF4158;
 }
@@ -41,25 +41,24 @@
   color: rgb(12, 12, 12);
 }
 
-/* Color Theme Swatches in HSLA */
-.Moda-1-hsla {
-  color: hsl(348, 49%, 50%);
+.btn-shadow {
+  margin-top: 5px;
+  box-shadow: 3px 3px 1px 0px rgb(12, 12, 12);
 }
 
-.Moda-2-hsla {
-  color: hsl(16, 32%, 77%);
+p {
+  font-size: 1.2em;
+  line-height: 1.4em;
+  color: rgb(12, 12, 12);
+  font-family: "Roboto", sans-serif;
 }
 
-.Moda-3-hsla {
-  color: hsl(0, 96%, 7%);
+.bg-btn, .btn-shadow {
+  background-color: #D9BEB4;
 }
 
-.Moda-4-hsla {
-  color: hsl(0, 94%, 18%);
-}
-
-.Moda-5-hsla {
-  color: hsl(0, 0%, 5%);
+.background-titulo {
+  background-color: rgba(216, 189, 179, 0.5);
 }
 
 html {
@@ -103,16 +102,12 @@ a {
   line-height: 1em;
 }
 
-.background-titulo {
-  background-color: rgba(216, 189, 179, 0.5);
-}
-
 body {
   background-image: url(../img/Backgrounds/moroccan-flower.png);
 }
 
 .bg-compra {
-  background-color: hsl(0, 94%, 18%);
+  background-color: rgb(89, 2, 2);
 }
 
 form {
@@ -142,10 +137,6 @@ footer {
   margin-right: 6px;
   margin-bottom: 5px;
   margin-left: 6px;
-}
-
-.bg-btn {
-  background-color: #D9BEB4;
 }
 
 .footer-size {
